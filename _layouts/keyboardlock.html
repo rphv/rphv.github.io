@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <style>
       body {
@@ -19,10 +18,10 @@
         padding: 1rem;
       }
     </style>
-    {% include head-custom.html %}
   </head>
   <body>
     <div class="wrapper">
+      <img src="{{ '/assets/img/KeyboardLock_app_icon_128x128.png' | relative_url }}" alt="KeyboardLock Logo" style="max-height: 256px; max-width: 256px;" />
       <div>
         {{ content }}
       </div>
