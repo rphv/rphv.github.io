@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## KeyboardLock
 
 KeyboardLock is a simple way to disable input from your keyboard and trackpad. Great for FaceTime-ing with toddlers, cleaning your keyboard, or cats.
