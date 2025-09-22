@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      body {
+        display: flex;
+        justify-content: center;  /* horizontal center */
+        margin: 0;
+      }
+      .wrapper {
+        max-width: 700px;         /* column width */
+        width: 100%;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div style="text-align: center;">
+        <img 
+          src="{{ '/assets/img/AF-logo-Logomark-orangeRGB-1024.png' | relative_url }}" 
+          alt="KeyboardLock Logo"
+          style="max-height: 256px; max-width: 256px;" 
+        />
+      </div>
+      <div>
+        {{ content }}
+      </div>
+      <footer></footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
