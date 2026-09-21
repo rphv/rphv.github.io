@@ -16,8 +16,5 @@ Features:
 
 Home Stretch is listed on the App Store as **Home Stretch Timer**.
 
-### Support
-Questions, bug reports, or feature requests? Email `perry[dot]hooker[at]gmail[dot]com`.
-
 ### Privacy Policy
 Home Stretch does not collect, store, or share any personal information. No data is transmitted off your device.
